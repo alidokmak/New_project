@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:#970000;
+
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px ;
+    background-color: rgb(38, 104, 104);
+
+}
+nav ul{
+    list-style: none;
+    display: flex;
+  
+
+}
+li{
+margin-right: 20px;
+
+}
+nav a{
+    text-decoration: underline;
+    color :rgb(150, 150, 150) ;
+    font-weight: bold;
+}
+nav a:hover{
+    color: rgb(229, 255, 0);
+    font-size: large;
+}
+.welcome{
+    display : flex ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("mcqueen_banner(2).jpg");
+    background-size: cover;
+    height: 600px;
+    text-align: center;
+    color: rgb(229, 255, 0);
+  
+    
+    
+}
+.welcome h2{
+    font-size: 50px ;
+    margin-bottom: 20px ;
+    position: relative; 
+    top: 200px ; left: none;
+   
+    
+}
+.welcome button{
+    padding: 10px 20px;
+    background-color: #631a3e;
+  border: none ;
+  color: aliceblue;
+  border-radius: 5px;
+  font-size: 16px;
+  position: relative; 
+  top: 210px; left: none;
+}
+
+.aboutUs{
+    text-align: center;
+    padding:40px 20px ;
+
+}
+.aboutUs p{
+    margin-bottom: 30px;
+    line-height: 1.5;
+    font-size: 20px;
+    color: aliceblue;
+
+}
+
+.aboutUs h2{
+font-size: 25px;
+margin-bottom: 20px;
+color: aliceblue;
+text-decoration: underline;
+}
+
+
+
+.gallery{
+text-align: center;
+padding: 50px 20px;
+}
+
+.gallery h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color:rgb(229, 255, 0) ;
+}
+.imagesContainer{
+    display: grid ;
+grid-template-columns: repeat(3,1fr);
+grid-gap: 20px;
+
+}
+.imagesContainer img{
+    width: 100% ;
+    height:auto ;
+    border-radius: 5px;
+}
+.footer{
+
+    padding: 20px 20px;
+    text-align: center;
+    background-color: rgb(73, 79, 83);
+
+}
+.footer p{
+    font-size: 14px;
+    color: #fffb00;
+}
